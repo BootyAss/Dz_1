@@ -16,6 +16,7 @@ Source - only main() function
 
 #Команды
   ## В списке Баз данных :
+  ```Shell
  help
  create <DB name> - создание новой Базы Данных
  list - вывод списка Баз Данных
@@ -61,3 +62,4 @@ Source - only main() function
  by_name -  will sort and show DB list only, not Unit list
  back
  end
+```
