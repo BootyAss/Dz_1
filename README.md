@@ -1,5 +1,5 @@
 All needed files included
-
+```Shell
 DB - the DataBase class, contains vector of Units
 Unit - base class, "Подразделение"
 SciUnit - derived class, "Научный"
@@ -9,6 +9,8 @@ Functions - header with functions (out, error, parsing, etc.)
 Paths - header with paths to an object/directory
 
 Source - only main() function
+```
+## Так же добавил 4 файла с готовыми примерами Баз Данных .txt (DB0,DB1,DB2,DB3)
 
 ## Для реализации я выбрал не самый разумный пусть - создал класс DB с вектором Unit* и использовал map<string, Unit*> в main. Думаю, легче было создать вектор имен string и обращаться к классу через это имя для получения данных.
 
